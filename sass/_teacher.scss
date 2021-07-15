@@ -1,0 +1,19 @@
+.teacher {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    height: 100vh;
+
+    &__title {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    &__btn {
+        flex-basis: 25%;
+        height: 100px;
+        padding: 10px 50px;
+        margin: 15px 0px;
+    }
+}

@@ -1,0 +1,12 @@
+.student {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    height: 100vh;
+
+    &__title {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
